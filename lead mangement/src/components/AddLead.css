@@ -1,0 +1,49 @@
+.add-lead-section {
+  background: white;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.form-header h4 {
+  font-weight: bold;
+  color: #172033;
+}
+
+.form-header p {
+  color: #8993a8;
+}
+
+.close-btn {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-lead-section label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #344054;
+}
+
+.add-lead-section .form-control,
+.add-lead-section .form-select {
+  padding: 11px;
+  border-radius: 8px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 25px;
+}
